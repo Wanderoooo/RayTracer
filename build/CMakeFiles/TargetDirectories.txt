@@ -1,0 +1,3 @@
+C:/Users/Alissa Guo/Desktop/RayTracer/build/CMakeFiles/RayTracer.dir
+C:/Users/Alissa Guo/Desktop/RayTracer/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Alissa Guo/Desktop/RayTracer/build/CMakeFiles/ZERO_CHECK.dir

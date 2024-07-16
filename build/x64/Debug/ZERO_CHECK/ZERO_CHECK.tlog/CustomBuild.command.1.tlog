@@ -1,0 +1,10 @@
+^C:\USERS\ALISSA GUO\DESKTOP\RAYTRACER\BUILD\CMAKEFILES\5DE738B5AD29A2938468373FF64BD3D3\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/Alissa Guo/Desktop/RayTracer" "-BC:/Users/Alissa Guo/Desktop/RayTracer/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/Alissa Guo/Desktop/RayTracer/build/RayTracer.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
